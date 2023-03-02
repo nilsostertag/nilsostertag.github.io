@@ -1,3 +1,4 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');*/
 @import url('//fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
@@ -8,9 +9,11 @@
 
 body {
     margin: 0;
+    background-color: #f8f8f8;
 }
 
 header {
+    width: 100%;
     padding-top: 20px;
     padding-left: 5%;
     padding-right: 5%;
@@ -20,10 +23,32 @@ header {
     font-size: 30px;
     font-weight: 300;
     position: sticky;
-    color: #ffffff;
-    background-color: #7013BD;
+    color: #f8f8f8;
+    background-color: #91157e;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.12), 
+                0 8px 8px rgba(0,0,0,0.12),
+                0 16px 16px rgba(0,0,0,0.12);
+}
 
-    /*transform: rotate(2deg);*/
+header:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    height: 45px;
+    background-color: #91157e;
+    transform: skewY(0.75deg);
+
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.12), 
+                0 8px 8px rgba(0,0,0,0.12),
+                0 16px 16px rgba(0,0,0,0.12);
+                
+    z-index: -1;
 }
 
 .navigation {
@@ -31,7 +56,7 @@ header {
 }
 .navigation a {
     text-decoration: none;
-    color: #ffffff;
+    color: #f8f8f8;
 }
 
 .navigation div {
@@ -40,9 +65,9 @@ header {
 
 .navigation div:hover {
     cursor: pointer;
-    color: #cfcfcf;
+    color: #c246c6;
 }
 
 .navcontact {
-    color: #cfcfcf;
+    color: #c246c6;
 }
