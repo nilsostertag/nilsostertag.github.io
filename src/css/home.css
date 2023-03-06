@@ -93,8 +93,13 @@ header:before {
     text-align: justify;
 }
 
+.content .activity {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
 .seemycv {
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 .seemycv button {
