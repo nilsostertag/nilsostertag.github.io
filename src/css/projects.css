@@ -24,7 +24,7 @@ header {
     font-weight: 300;
     position: fixed;
     color: #f8f8f8;
-    background-color: #91157e;
+    background-color: #65195E;
 }
 
 header:before {
@@ -34,7 +34,7 @@ header:before {
     right: 0;
     bottom: -15px;
     height: 45px;
-    background-color: #91157e;
+    background-color: #65195E;
     transform: skewY(0.75deg);
 
     box-shadow: 0 1px 1px rgba(0,0,0,0.12), 

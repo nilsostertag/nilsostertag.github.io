@@ -24,7 +24,7 @@ header {
     font-weight: 300;
     position: fixed;
     color: #f8f8f8;
-    background-color: #91157e;
+    background-color: #65195E;
 }
 
 header:before {
@@ -34,7 +34,7 @@ header:before {
     right: 0;
     bottom: -15px;
     height: 45px;
-    background-color: #91157e;
+    background-color: #65195E;
     transform: skewY(0.75deg);
 
     box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
@@ -65,4 +65,52 @@ header:before {
 
 .navhome {
     color: #c246c6;
+}
+
+.contentwrap {
+    display: flex;
+}
+
+.content {
+    padding-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content .name {
+    font-size: 25px;
+}
+
+.content .short{
+    padding-top: 5px;
+    font-size: 20px;
+    color: #91157E;
+}
+
+.content .welcometext {
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.seemycv {
+    padding-top: 25px;
+}
+
+.seemycv button {
+    border: none;
+    background-color: #65195E;
+    font-size: 20px;
+    color: #f8f8f8;
+    padding: 5px;
+}
+
+.seemycv button:hover{
+    color: #c246c6;
+    cursor: pointer;
+}
+
+.seemycv button:active{
+    background-color: #c246c6;
+    color:#f8f8f8;
 }
