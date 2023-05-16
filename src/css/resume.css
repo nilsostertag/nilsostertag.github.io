@@ -63,7 +63,7 @@ header:before {
     color: #575757;
 }
 
-.navhome {
+.navresume {
     color: #272727;
 }
 
@@ -75,52 +75,32 @@ header:before {
     padding-top: 15%;
     margin-left: 10%;
     margin-right: 10%;
+    padding-bottom: 10%;
 }
 
-.content .name {
+.title {
     font-size: 25px;
     color: #272727;
 }
 
-.content .short{
-    padding-top: 5px;
-    font-size: 20px;
-    color: #575757;
-}
-
-.content .welcometext {
-    padding-top: 50px;
-    font-size: 20px;
-    text-align: justify;
-    color: #272727;
-}
-
-.content .activity {
-    padding-top: 20px;
+.subtitle {
+    padding-top: 5%;
     font-size: 20px;
     color: #272727;
 }
 
-.seemycv {
-    padding-top: 50px;
+.entry {
+    padding-top: 2%;
 }
 
-.seemycv a {
-    border: none;
-    background-color: #5576D1;
+.entrytitle {
     font-size: 20px;
-    color: #F8F0E3;
-    padding: 5px;
-    text-decoration: none;
-    padding: 3px;
+    color: #272727;
 }
 
-.seemycv a:hover{
+.activity {
+    display: flex;
+    justify-content: space-between;
     color: #575757;
-    cursor: pointer;
 }
 
-.seemycv a:active{
-    background-color: #a5bdff;
-    color:#F8F0E3;
-}

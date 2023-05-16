@@ -9,7 +9,7 @@
 
 body {
     margin: 0;
-    background-color: #f8f8f8;
+    background-color: #F8F0E3;
 }
 
 header {
@@ -22,9 +22,9 @@ header {
     justify-content: space-between;
     font-size: 30px;
     font-weight: 300;
-    position: sticky;
+    position: fixed;
     color: #f8f8f8;
-    background-color: #65195E;
+    background-color: #5576D1;
 }
 
 header:before {
@@ -34,7 +34,7 @@ header:before {
     right: 0;
     bottom: -15px;
     height: 45px;
-    background-color: #65195E;
+    background-color: #5576D1;
     transform: skewY(0.75deg);
 
     box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
@@ -51,7 +51,7 @@ header:before {
 }
 .navigation a {
     text-decoration: none;
-    color: #f8f8f8;
+    color: #F8F0E3;
 }
 
 .navigation div {
@@ -60,9 +60,9 @@ header:before {
 
 .navigation div:hover {
     cursor: pointer;
-    color: #c246c6;
+    color: #575757;
 }
 
 .navabout {
-    color: #c246c6;
+    color: #272727;
 }
