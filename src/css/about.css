@@ -12,7 +12,7 @@ body {
     background-color: #F8F0E3;
 }
 
-header {
+#header {
     width: 100%;
     padding-top: 20px;
     padding-left: 5%;
@@ -27,7 +27,7 @@ header {
     background-color: #5576D1;
 }
 
-header:before {
+#header:before {
     content: '';
     position: absolute;
     left: 0;
@@ -46,23 +46,30 @@ header:before {
     z-index: -1;
 }
 
-.navigation {
+#navigation {
     display: flex;
 }
-.navigation a {
+
+#navigation a {
     text-decoration: none;
     color: #F8F0E3;
 }
 
-.navigation div {
+#navigation div {
     margin-left: 55px;
 }
 
-.navigation div:hover {
+#navigation div:hover {
     cursor: pointer;
     color: #575757;
 }
 
-.navabout {
+#navabout {
     color: #272727;
+}
+
+#content {
+    padding-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }

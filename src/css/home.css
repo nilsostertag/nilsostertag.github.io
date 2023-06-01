@@ -12,7 +12,7 @@ body {
     background-color: #F8F0E3;
 }
 
-header {
+#header {
     width: 100%;
     padding-top: 20px;
     padding-left: 5%;
@@ -27,7 +27,7 @@ header {
     background-color: #5576D1;
 }
 
-header:before {
+#header:before {
     content: '';
     position: absolute;
     left: 0;
@@ -46,66 +46,63 @@ header:before {
     z-index: -1;
 }
 
-.navigation {
+#navigation {
     display: flex;
 }
-.navigation a {
+
+#navigation a {
     text-decoration: none;
     color: #F8F0E3;
 }
 
-.navigation div {
+#navigation div {
     margin-left: 55px;
 }
 
-.navigation div:hover {
+#navigation div:hover {
     cursor: pointer;
     color: #575757;
 }
 
-.navhome {
+#navhome {
     color: #272727;
 }
 
-.contentwrap {
-    display: flex;
-}
-
-.content {
+#content {
     padding-top: 15%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.content .name {
+#content #name {
     font-size: 25px;
     color: #272727;
 }
 
-.content .short{
+#content #short{
     padding-top: 5px;
     font-size: 20px;
     color: #575757;
 }
 
-.content .welcometext {
+#content #welcometext {
     padding-top: 50px;
     font-size: 20px;
     text-align: justify;
     color: #272727;
 }
 
-.content .activity {
+#content #activity {
     padding-top: 20px;
     font-size: 20px;
     color: #272727;
 }
 
-.seemycv {
+#seemycv {
     padding-top: 50px;
 }
 
-.seemycv a {
+#seemycv a {
     border: none;
     background-color: #5576D1;
     font-size: 20px;
@@ -115,12 +112,12 @@ header:before {
     padding: 3px;
 }
 
-.seemycv a:hover{
+#seemycv a:hover{
     color: #575757;
     cursor: pointer;
 }
 
-.seemycv a:active{
+#seemycv a:active{
     background-color: #a5bdff;
     color:#F8F0E3;
 }

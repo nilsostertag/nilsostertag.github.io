@@ -12,7 +12,7 @@ body {
     background-color: #F8F0E3;
 }
 
-header {
+#header {
     width: 100%;
     padding-top: 20px;
     padding-left: 5%;
@@ -22,12 +22,12 @@ header {
     justify-content: space-between;
     font-size: 30px;
     font-weight: 300;
-    position: fixed;
+    position: sticky;
     color: #f8f8f8;
     background-color: #5576D1;
 }
 
-header:before {
+#header:before {
     content: '';
     position: absolute;
     left: 0;
@@ -46,61 +46,57 @@ header:before {
     z-index: -1;
 }
 
-.navigation {
+#navigation {
     display: flex;
 }
-.navigation a {
+#navigation a {
     text-decoration: none;
     color: #F8F0E3;
 }
 
-.navigation div {
+#navigation div {
     margin-left: 55px;
 }
 
-.navigation div:hover {
+#navigation div:hover {
     cursor: pointer;
     color: #575757;
 }
 
-.navresume {
+#navresume {
     color: #272727;
 }
 
-.contentwrap {
-    display: flex;
-}
-
-.content {
-    padding-top: 15%;
+#content {
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 10%;
+    margin-bottom: 10%;
+    width: 80%;
 }
 
-.title {
-    font-size: 25px;
+#title {
+    font-size: 30px;
     color: #272727;
 }
 
-.subtitle {
-    padding-top: 5%;
+#subtitle {
+    margin-top: 5%;
+    font-size: 24px;
+    color: #272727;
+}
+
+#entry {
+    margin-top: 2%;
+}
+
+#entrytitle {
     font-size: 20px;
     color: #272727;
 }
 
-.entry {
-    padding-top: 2%;
-}
-
-.entrytitle {
-    font-size: 20px;
-    color: #272727;
-}
-
-.activity {
+#activity {
     display: flex;
     justify-content: space-between;
     color: #575757;
 }
-
